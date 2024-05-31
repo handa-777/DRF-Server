@@ -32,6 +32,7 @@ ALLOWED_HOSTS = [
     'http://127.0.0.1:8000',
     '127.0.0.1',
     'port-0-drf-server-3prof2llkumhr4n.sel4.cloudtype.app',
+    'port-0-drf-server-1272llwumfcoj.sel5.cloudtype.app',
 ]
 # CORS 설정
 CORS_ALLOW_CREDENTIALS = True
@@ -39,12 +40,14 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'http://127.0.0.1:8000',
     'https://port-0-drf-server-3prof2llkumhr4n.sel4.cloudtype.app',
+    'https://port-0-drf-server-1272llwumfcoj.sel5.cloudtype.app',
 ]
 #CSRF 설정
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:3000',
     'http://127.0.0.1:8000',
     'https://port-0-drf-server-3prof2llkumhr4n.sel4.cloudtype.app',
+    'https://port-0-drf-server-1272llwumfcoj.sel5.cloudtype.app',
 ]
 
 AUTH_USER_MODEL = 'accounts.User'
